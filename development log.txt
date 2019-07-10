@@ -28,7 +28,13 @@ DAY 1 搭建开发环境
 	
 	同步建立 git 仓库，并远程同步至 Github，保证代码修改的安全。
 		
-		
+DAY 2 编写Web App骨架
+	
+	由于我们的Web App建立在asyncio的基础上，因此用aiohttp写一个基本的app.py：
+	
+	需要去掌握异步io的相关知识
+	
+	以及web wsgi接口的创建原理
 		
 		
 		
