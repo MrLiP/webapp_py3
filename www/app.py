@@ -30,7 +30,7 @@ async def index(request):
     # 同时去掉async 和 header 会使其变为文件下载
     text = '<h1>Awesome</h1>'
     # 加了content-type才会按html方式显示
-    return web.Response(text=text, headers= {'content-type': 'text/html'})
+    return web.Response(text=text, headers= {'content-type':'text/html'})
 
 # 用asyncio提供的@asyncio.coroutine可以把一个generator标记为coroutine类型
 # 然后在coroutine内部用yield from调用另一个coroutine实现异步操作
